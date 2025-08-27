@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-export default function Bai5() {
+export default function ChangeInput() {
     const [value, setValue] = useState("");
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setValue(e.target.value);

@@ -5,7 +5,7 @@ type Product = {
     price: number;
     quantity: number
 };
-export default function Bai2() {
+export default function Exercise02() {
     const [product, setProduct] = useState<Product>({
     id: 1,
     name: "Iphone 14 Pro Max",

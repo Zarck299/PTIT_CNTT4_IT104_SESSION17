@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-export default function Bai8() {
+export default function CheckBox() {
     const [hobbies, setHobbies] = useState<string[]>([]);
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;

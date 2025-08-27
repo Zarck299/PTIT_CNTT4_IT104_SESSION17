@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-export default function Bai4() {
+export default function CheckVisible() {
     const [isVisible, setIsVisible] = useState<boolean>(false);
     const handleToggle = () => {
         setIsVisible(!isVisible);

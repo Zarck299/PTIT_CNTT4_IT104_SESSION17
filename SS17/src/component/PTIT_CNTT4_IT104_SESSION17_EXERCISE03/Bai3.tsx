@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-export default function Bai3() {
+export default function ChangeColor() {
     const [color, setColor] = useState("black");
     const handleChangeColor = () => {
         setColor(color === "black" ? "red" : "black");

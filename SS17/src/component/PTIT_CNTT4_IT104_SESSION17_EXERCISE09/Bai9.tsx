@@ -6,7 +6,7 @@ type Task = {
   completed: boolean;
 };
 
-export default function TodoList() {
+export default function TodoListEx09() {
   const [taskName, setTaskName] = useState<string>("");
   const [tasks, setTasks] = useState<Task[]>(() => {
     return JSON.parse(localStorage.getItem("tasks") || "[]") || [];
